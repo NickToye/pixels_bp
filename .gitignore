@@ -1,1 +1,4 @@
 .DS_Store
+**/.sass-cache
+**/.sass-cache/*
+bower_components/wordpress/wp-content/themes/pixels/dev/sass/.sass-cache/37e24d2d18549fc4d0a9ecbcba28e0e46929879d/styles.scssc
