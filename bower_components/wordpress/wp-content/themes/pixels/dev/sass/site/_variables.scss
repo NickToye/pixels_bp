@@ -14,12 +14,14 @@ A. BASICS
 	A2. Atmosphere
 		- Black & Whites
 		- Neutral Colours
-		- Scaffolding
 		- Branding
+		- Base
+		- States
 		- Headings
 		- Social Media Branding
 		- Hyperlinks
 		- Blockquotes
+		- Radius
 		- Misc
 
 	A3. Typography
@@ -68,4 +70,143 @@ $max-width:																		1400px;
 $desktop-width:																	940px;
 $tablet-width:																	724px;
 $mobile-width:																	440px;
+
+// - Rhythm
+
+// *** DO I NEED THESE?  TEST ***
+$base-font-size:																16;
+$base-line-height:																24;
+$rhythm-unit:																	$base-line-height/2;
+$large-rhythm-unit:																$base-line-height;
+$small-rhythm-unit:																$base-line-height/3;
+$extra-small-rhythm-unit:														$base-line-height/4;
+
+// - Gutters
+
+// *** DOCUMENT THESE FROM GRIDSET ***
+$gutter-width:																	gs-gutter(d,false,true);
+$desktop-gutter-width:															gs-adjust(d,gs-gutter(d),(9,12),true);
+
+// - Media Queries
+
+// *** DO I NEED TO ADD SOMETHING FROM GRIDSET? ***
+
+// class name to target browsers that don't support media queries
+
+// *** WHERE IS THIS BEING APPLIED? ***
+$no-mq-classname:																".let-ie9";
+
+
+// A2. Atmosphere
+
+// - Black & Whites
+$black:																			rgb(0,0,0);
+$white:																			rgb(255,255,255);
+$charcoal:																		rgb(61,61,61);
+
+// - Neutral Colours
+
+// *** ADD A GRAY DARKEST ***
+$gray-darker:																	lighten($black, 13.5%); // #222
+$gray-dark:																		lighten($black, 20%); // #333
+$gray:																			lighten($black, 33.5%); // #555
+$gray-light:																	lighten($black, 60%); // #999
+$gray-lighter:																	lighten($black, 86.5%); // #DDD
+$gray-lightest:																	lighten($black, 93.5%); // #EEE
+
+// - Branding
+$brand-primary:																	rgb(202,98,83);
+$brand-secondary:																rgb(90,124,127);
+$brand-tertiary:																rgb(76,91,128);
+
+// *** TEST THESE ALTS ***
+$alt-1:																			complement($brand-primary);
+$alt-2:																			complement($brand-secondary);
+
+// - Base
+$background-color:																$white;
+$text-color:																	$black;
+
+// - States
+$success-color:																	rgb(92,184,92);
+$info-color:																	rgb(91,192,222);
+$warning-color:																	rgb(240,173,178);
+$danger-color:																	rgb(217,83,79);
+$muted-color:																	$gray-light;
+
+// - Headings
+$headings-text-color:															$brand-primary;
+
+// *** DO I NEED THIS? ***
+$headings-small-text-color:														$gray-light;
+
+// - Social Media Branding
+$brand-twitter:																	rgb(53,204,255);
+$brand-facebook:																rgb(3,83,158);
+$brand-linkedin:																rgb(33,123,193);
+$brand-pinterest:																rgb(203,32,39);
+$brand-dribbble:																rgb(234,76,137);
+$brand-google:																	rgb(221,75,57);
+$brand-youtube:																	rgb(229,45,39);
+$brand-codepen:																	$black;
+$brand-github:																	rgb(34,34,34);
+$brand-spotify:																	rgb(132,189,0);
+$brand-wordpress:																rgb(33,117,155);
+$brand-apple:																	$black;
+$brand-instagram:																rgb(81,127,164);
+$brand-windows:																	rgb(0,161,207);
+$brand-vimeo:																	rgb(69,187,255);
+$brand-fontawesome:																rgb(34,34,34);
+
+// - Hyperlinks
+$link-color:																	$brand-primary;
+$link-hover-color:																darken($link-color,15%);
+
+// - Borders
+$border-color:																	$gray-lighter;
+
+// - Blockquotes
+$blockquote-text-color:															$text-color;
+$blockquote-background-color:													$info-color;
+$blockquote-border-color:														$border-color;
+$blockquote-border-size:														5px;
+$blockquote-border-style:														solid;
+$blockquote-cite-color:															$brand-primary;
+
+// - Radius
+$radius:																		5px;
+$radius-large:																	$radius*1.5;
+$radius-small:																	$radius/1.5;
+
+// - Misc
+$text-muted:																	$gray-light;
+$abbr-border-color:																$border-color;
+$hr-border:																		$border-color;
+
+// - Code
+$code-text-color:																$brand-secondary;
+$code-background-color:															lighten($code-text-color,50%);
+$code-border-color:																darken(adjust-hue($code-background-color, -10),5%);
+
+// - KBD
+$kbd-text-color:																$white;
+$kbd-background-color:															$brand-secondary;
+$kbd-border-color:																darken(adjust-hue($kbd-background-color,-10),5%);
+
+
+// A3. Typography
+
+// - Typefaces
+
+
+// - Sizes
+
+
+// - Weights
+
+
+// - Iconography
+
+
+// B. COMPONENTS
 
