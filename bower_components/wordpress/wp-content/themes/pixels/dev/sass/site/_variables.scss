@@ -188,10 +188,21 @@ $code-text-color:																$brand-secondary;
 $code-background-color:															lighten($code-text-color,50%);
 $code-border-color:																darken(adjust-hue($code-background-color, -10),5%);
 
-// - KBD
+// - Kbd
 $kbd-text-color:																$white;
 $kbd-background-color:															$brand-secondary;
 $kbd-border-color:																darken(adjust-hue($kbd-background-color,-10),5%);
+
+// - Pre
+$pre-text-color:																$brand-secondary;
+$pre-background-color:															lighten($pre-text-color,50%);
+$pre-border-color:																darken(adjust-hue($pre-background-color,-10),5%);
+
+// State Colors
+
+// *** TEST ***
+$state-success-text-color:														lighten($success-color,15%);
+$state-success-background-color:												$success-color;
 
 
 // A3. Typography
