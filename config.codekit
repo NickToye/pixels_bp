@@ -4506,22 +4506,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/site\/_variables.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/site\/_variables.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/css\/_variables.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/site\/assets\/_fonts.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
