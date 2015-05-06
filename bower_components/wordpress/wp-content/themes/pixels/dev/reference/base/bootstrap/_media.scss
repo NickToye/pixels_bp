@@ -1,0 +1,48 @@
+// Media
+// ---------------------------
+// Bootstrap Component
+
+// Common styles
+// -------------------------
+
+// Clear the floats
+.media,
+.media__body {
+	overflow: hidden;
+	zoom: 1;
+}
+// Proper spacing between instances of .media
+.media,
+.media .media {
+	margin-top: 15px;
+}
+.media:first-child {
+	margin-top: 0;
+}
+
+.media {
+	clear: both;
+	&__body {
+		// Reset margins on headings for tighter default spacing
+		&__heading {
+			margin: 0 0 5px;
+		}
+	}
+	// For images and videos, set to block
+	&__object {
+		display: block;
+	}
+	// Media image alignment
+	> .pull-left { margin-right: 10px; }
+	> .pull-right { margin-left: 10px; }
+}
+
+// Media list variation
+// -------------------------
+
+// Undo default ul/ol styles
+.media-list {
+  padding-left: 0;
+  list-style: none;
+  @include clearfix;
+}

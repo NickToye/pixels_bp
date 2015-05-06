@@ -1,0 +1,27 @@
+// Twitter
+// ---------------------------
+// Styles for the Twitter module
+
+.twitter {
+
+	ul.twitter-actions {
+		clear: both;
+		opacity: 0;
+
+		margin-bottom: 0;
+		@include transition(opacity .3s linear);
+	}
+	.media {
+		p {
+			margin-bottom: 0;
+		}
+		&:hover {
+			ul.twitter-actions {
+				opacity: 1;
+			}
+		}
+	}
+	.media__body {
+		position: relative;
+	}
+}

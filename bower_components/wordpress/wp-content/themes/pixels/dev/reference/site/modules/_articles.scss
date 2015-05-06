@@ -1,0 +1,19 @@
+// Articles
+// ---------------------------
+// Styles for the articles module
+
+article {
+	@include gs-span(m,all);
+	&.article {
+		padding: rem($rhythm-unit)*6 0;
+		.wrapper {
+			@include gs-span(m,all);
+			@include gs-media(d,min) {
+				@include gs-span(d,4,9);
+			}
+		}
+		p:first-of-type {
+			@include font-size($h3,$line-height:false,$margin-bottom:false);
+		}
+	}
+}

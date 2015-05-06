@@ -1,0 +1,30 @@
+// Gallery
+// ---------------------------
+// Styles for the gallery module
+
+.list-gallery {
+	li {
+		padding: 0;
+		@include gs-span(m,all);
+		@include gs-media(t,min) {
+			&:nth-of-type(4n+1) {
+				clear: both;
+				@include gs-span(d,1,3);
+			}
+			&:nth-of-type(4n+2) {
+				clear: none;
+				@include gs-span(d,4,6);
+			}
+			&:nth-of-type(4n+3) {
+				clear: none;
+				@include gs-span(d,7,9);
+			}
+			&:nth-of-type(4n+4) {
+				clear: none;
+				@include gs-span(d,10,12);
+			}
+		}
+	}
+
+}
+

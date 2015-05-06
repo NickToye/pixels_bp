@@ -1,0 +1,224 @@
+// Panels
+// ---------------------------
+// Styles for the panels module, overrides Bootstrap
+
+.panel {
+
+	@include box-shadow(0 0 3px rgba($black,.3));
+	&__heading {
+		border-bottom: none;
+		padding: rem($rhythm-unit) rem($rhythm-unit)*2;
+		.panel--projects & {
+			padding-bottom: 0;
+		}
+		.panel--articles & {
+			h2 {
+				color: $brand-articles;
+				margin-bottom: rem($rhythm-unit)*2;
+			}
+		}
+		.panel--articles--featured & {
+
+			h2 {
+				background: $brand-articles;
+				padding: 5px 10px;
+				color: $white;
+				border-radius: 5px;
+				border-top-left-radius: 0;
+				border-top-right-radius: 0;
+				position: absolute;
+				top: 0;
+				text-align: left;
+				margin-bottom: rem($rhythm-unit)*2;
+			}
+		}
+		.panel--projects--featured & {
+			h2 {
+				background: $brand-projects;
+				padding: 5px 10px;
+				color: $white;
+				border-radius: 5px;
+				border-top-left-radius: 0;
+				border-top-right-radius: 0;
+				position: absolute;
+				top: 0;
+				text-align: left;
+				margin-bottom: rem($rhythm-unit)*2;
+			}
+		}
+	}
+	&__body {
+		margin-bottom: rem($rhythm-unit)*3;
+		padding: rem($rhythm-unit)*2;
+		.content {
+			margin-bottom: rem($rhythm-unit)*3;
+			padding: 0;
+		}
+	}
+	.block--intro & {
+
+		max-width: $max-width;
+		margin: 0 auto;
+		float: none;
+		// height: 300px;
+		/* margin-top: 50px; */
+		box-shadow: none;
+		@include gs-media(d,min) {
+			margin-bottom: 0;
+		}
+
+		&__heading {
+			padding: 0;
+		}
+		&__body {
+			@include gs-span(m,all);
+			margin-bottom: rem($rhythm-unit)*2;
+			padding: 0;
+
+			@include gs-media(d,min) {
+				margin-bottom: 0;
+				@include gs-span(d,1,8);
+			}
+		}
+		&__footer {
+			@include gs-span(m,all);
+			clear: both;
+			a.btn {
+				display: block;
+				float: none !important;
+			}
+			@include gs-media(d,min) {
+				@include gs-span(d,9,12);
+				clear: none;
+				a.btn {
+					float: right !important;
+				}
+			}
+
+			background: none;
+			border: none;
+		}
+	}
+/*
+	&--services {
+		border-top: 10px $border-style $brand-services;
+	}
+	&--projects {
+		border-top: 10px $border-style $brand-projects;
+		.panel__heading {
+			@include gs-span(m,all);
+			padding-bottom: 0;
+			margin-bottom: 0;
+			position: relative;
+			figure {
+				max-width: 15%;
+				.block--split & {
+					display: none;
+				}
+			}
+
+		}
+		&--featured {
+			img {
+				margin-bottom: rem($rhythm-unit)*2;
+			}
+			.panel__heading {
+				padding: rem($rhythm-unit)*6 rem($rhythm-unit)*2 rem($rhythm-unit)*2;
+				margin-bottom: 0;
+				text-align: center;
+			}
+			.panel__body {
+				padding: rem($rhythm-unit)*2;
+				text-align: center;
+				h2 {
+					@include font-size($font-size-jumbo,$line-height:false,$margin-bottom:false);
+					color: $brand-tertiary;
+				}
+			}
+
+		}
+
+	}
+	&--articles {
+		border-top: 10px $border-style $brand-articles;
+		.panel__heading {
+			@include gs-span(m,all);
+			padding-bottom: 0;
+			margin-bottom: 0;
+			position: relative;
+			figure {
+				max-width: 15%;
+				.block--split & {
+					display: none;
+				}
+			}
+
+		}
+		&--featured {
+			img {
+				margin-bottom: rem($rhythm-unit)*2;
+			}
+			.panel__heading {
+				padding: rem($rhythm-unit)*6 rem($rhythm-unit)*2 rem($rhythm-unit)*2;
+				margin-bottom: 0;
+				padding-bottom: 0;
+				text-align: center;
+				h1 { text-align: left;}
+			}
+			.panel__body {
+				padding: rem($rhythm-unit)*2;
+				text-align: left;
+				h2 {
+					@include font-size($font-size-jumbo,$line-height:false,$margin-bottom:false);
+					color: $brand-tertiary;
+				}
+			}
+		}
+	}
+	&--casestudies {
+		border-top: 10px $border-style $brand-casestudies;
+	}
+
+	.block--left-panels &, .block--right-panels & {
+		padding: 0;
+
+
+		&__footer {
+			@include gs-span(m,all);
+			padding: rem($rhythm-unit);
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+*/
+}
+
+
+
+
+.dashed {
+	width: 100%;
+	text-align: center;
+	display: table;
+	.dash {
+		display: table-cell;
+		vertical-align: middle;
+		width: 50%;
+		hr {
+			border-style: dashed;
+			border-color: $gray-light;
+		}
+	}
+	h2 {
+		white-space: nowrap;
+		margin-bottom: 0;
+		padding: 0 10px;
+		top: 4px;
+		position: relative;
+		@include font-size(14,$line-height:false,$margin-bottom:false);
+		color: $brand-tertiary;
+	}
+}
+
+

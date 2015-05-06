@@ -1,0 +1,13 @@
+// Tabs
+// ---------------------------
+// Bootstrap Component
+
+.tab-content {
+	&__pane {
+		display: none;
+		padding: rem($rhythm-unit);
+	}
+	> .active {
+		display: block;
+	}
+}

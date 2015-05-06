@@ -4353,95 +4353,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/css\/styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/css\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/_components.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/_components.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/css\/_components.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/_mixins.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/_mixins.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/css\/_mixins.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/components\/_buttons.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/components\/_buttons.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/css\/_buttons.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/mixins\/_buttons.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/mixins\/_buttons.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/css\/_buttons.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/mixins\/_colours.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/mixins\/_colours.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/css\/_colours.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/mixins\/_functions.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -4451,22 +4362,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/mixins\/_functions.scss",
 		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/css\/_functions.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/mixins\/_typography.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/mixins\/_typography.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -4506,22 +4401,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/site\/assets\/_fonts.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/site\/assets\/_fonts.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/site\/css\/_fonts.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/site\/layout\/_gridset.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -4531,22 +4410,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/site\/layout\/_gridset.scss",
 		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/site\/css\/_gridset.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/styles.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/styles.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -4572,29 +4435,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/header.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/page.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9803,7 +9648,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "pixels.local",
+	"externalServerAddress": "mac-3c07546789ad.local",
 	"externalServerPreviewPathAddition": "bower_components\/wordpress",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
@@ -9854,10 +9699,6 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"browserify": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -9880,10 +9721,6 @@
 			},
 		"dojo": {
 			"active": 0,
-			"flagValue": -1
-			},
-		"elision": {
-			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -9922,10 +9759,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"futurehostile": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -9939,10 +9772,6 @@
 			"flagValue": 4
 			},
 		"iterator": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"jasmine": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -9990,10 +9819,6 @@
 			"active": 0,
 			"flagValue": 4
 			},
-		"mocha": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"mootools": {
 			"active": 0,
 			"flagValue": -1
@@ -10012,10 +9837,6 @@
 			},
 		"noarg": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"nocomma": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"node": {
@@ -10066,10 +9887,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"qunit": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"regexp": {
 			"active": 1,
 			"flagValue": -1
@@ -10116,10 +9933,6 @@
 			},
 		"unused": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"varstmt": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {

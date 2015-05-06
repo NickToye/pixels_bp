@@ -1,0 +1,45 @@
+// Alerts
+// ---------------------------
+// Bootstrap Javascript Component
+
+.alert {
+	padding: $alert-padding;
+	margin-bottom: rem($rhythm-unit);
+	border: 1px solid transparent;
+	border-radius: $alert-border-radius;
+	position: relative;
+	// Headings for larger alerts
+	h4 {
+		margin-top: 0;
+		// Specified for the h4 to prevent conflicts of changing $headings-color
+		color: inherit;
+	}
+	// Improve alignment and spacing of inner content
+	> p,
+	> ul {
+		margin-bottom: 0;
+	}
+	> p + p {
+		margin-top: 5px;
+	}
+	// Close button
+	.btn--close {
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		color: inherit;
+	}
+	// Contextual styles
+	&--success {
+	@include alert-variant($alert-success-background-color, $alert-success-border-color, $alert-success-text-color);
+	}
+	&--info {
+		@include alert-variant($alert-info-background-color, $alert-info-border-color, $alert-info-text-color);
+	}
+	&--warning {
+		@include alert-variant($alert-warning-background-color, $alert-warning-border-color, $alert-warning-text-color);
+	}
+	&--danger {
+		@include alert-variant($alert-danger-background-color, $alert-danger-border-color, $alert-danger-text-color);
+	}
+}

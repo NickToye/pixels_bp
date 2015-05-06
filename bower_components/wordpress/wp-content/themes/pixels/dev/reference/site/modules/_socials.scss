@@ -1,0 +1,41 @@
+// Socials
+// ---------------------------
+// Styles for the socials module
+
+section.top-bar {
+	@include gs-span(m,all);
+	background: rgb(48,46,46);
+	@include gradient-vertical(rgb(48,46,46),$gray-darker);
+	@include zero;
+	padding: 0;
+	border-bottom: $border-width $border-style $black;
+	.wrapper { position: relative; }
+	ul {
+		@include zero-list;
+		li {
+			@extend %ridged-vert;
+			padding: rem($rhythm-unit)/2;
+			float: left;
+			width: 30px;
+			text-align: center;
+			&:last-of-type {
+				border-right: $border-width $border-style rgba($black,.3);
+			}
+
+		}
+		border-right: $border-width $border-style rgba($white,.1);
+	}
+	a {
+		i.fa {
+			padding-top: 6px;
+			@include font-size(18,$line-height:false,$margin-bottom:false);
+		}
+	}
+	p {
+		@include zero;
+		@include vertical-align;
+		position: absolute;
+		right: rem($rhythm-unit)*2;
+	}
+}
+

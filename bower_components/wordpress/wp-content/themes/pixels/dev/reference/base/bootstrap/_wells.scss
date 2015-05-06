@@ -1,0 +1,34 @@
+// Wells
+// ---------------------------
+// Bootstrap Component
+
+// Base class
+.well {
+	@include gs-span(m,all);
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: $well-background-color;
+	border: 1px solid $well-border;
+	border-radius: $radius;
+	@include box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
+	blockquote {
+		border-color: #ddd;
+		border-color: rgba(0,0,0,.15);
+	}
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	// Sizes
+	&--lg {
+		padding: rem($rhythm-unit)*2;
+		border-radius: $border-radius-large;
+	}
+	&--sm {
+		padding: rem($rhythm-unit)/1.25;
+		border-radius: $border-radius-small;
+	}
+}
+

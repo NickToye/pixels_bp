@@ -1,0 +1,28 @@
+// Contact
+// ---------------------------
+// Styles for the contact module
+
+main.contact {
+	section {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	address {
+		@include gs-span(m,all);
+		@include gs-media(d,min) {
+			@include gs-span(d,1,6);
+		}
+	}
+	#ajax-message {
+		display: none;
+		color: white;
+		background: rgba(0,0,0,.3);
+		padding: 5px;
+		border-radius: 5px;
+		border: 1px solid rgba(0,0,0,.1);
+	}
+	form#contact_form {
+		margin-top: rem($rhythm-unit);
+	}
+}
+

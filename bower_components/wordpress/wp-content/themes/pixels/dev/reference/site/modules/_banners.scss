@@ -1,0 +1,11 @@
+// Banners
+// ---------------------------
+// Styles for the banners module
+
+.banner {
+	@include gs-span(m,all);
+	@extend %sectioned;
+	padding-bottom: rem($rhythm-unit);
+	margin-bottom: 0;
+	border-bottom: none;
+}

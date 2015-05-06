@@ -1,0 +1,40 @@
+// Blog
+// ---------------------------
+// Styles for the blog module, overrides Bootstrap
+
+.media {
+	padding-bottom: rem($rhythm-unit);
+	border-bottom: $border-width $border-style $border-color;
+	margin-bottom: rem($rhythm-unit);
+	footer & {
+		border-color: rgba($black,.2);
+	}
+	&:last-of-type {
+		@include zero;
+	}
+	// Header
+	&__header {
+		@include gs-span(m,all);
+		@include zero;
+		margin-bottom: rem($rhythm-unit);
+
+		small {
+			background: rgba($gray-lightest,.5);
+			padding: rem($rhythm-unit)/2;
+			border-radius: $radius;
+		}
+	}
+	// Featured Image
+	&__featured-image {
+		margin-bottom: rem($rhythm-unit);
+	}
+	// Body
+	&__body {
+// 		@include gs-span(m,all);
+
+	}
+	// Footer
+	&__footer {
+
+	}
+}
