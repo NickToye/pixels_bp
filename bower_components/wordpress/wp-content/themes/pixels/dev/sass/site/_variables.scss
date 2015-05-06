@@ -162,9 +162,6 @@ $brand-fontawesome:																rgb(34,34,34);
 $link-color:																	$brand-primary;
 $link-hover-color:																darken($link-color,15%);
 
-// - Borders
-$border-color:																	$gray-lighter;
-
 // - Blockquotes
 $blockquote-text-color:															$text-color;
 $blockquote-background-color:													$info-color;
@@ -172,11 +169,6 @@ $blockquote-border-color:														$border-color;
 $blockquote-border-size:														5px;
 $blockquote-border-style:														solid;
 $blockquote-cite-color:															$brand-primary;
-
-// - Radius
-$radius:																		5px;
-$radius-large:																	$radius*1.5;
-$radius-small:																	$radius/1.5;
 
 // - Misc
 $text-muted:																	$gray-light;
@@ -198,26 +190,117 @@ $pre-text-color:																$brand-secondary;
 $pre-background-color:															lighten($pre-text-color,50%);
 $pre-border-color:																darken(adjust-hue($pre-background-color,-10),5%);
 
-// State Colors
-
-// *** TEST ***
-$state-success-text-color:														lighten($success-color,15%);
-$state-success-background-color:												$success-color;
-
-
 // A3. Typography
 
+// *** CHANGE TO GOOGLE FONTS ***
 // - Typefaces
-
+$base-font-family:																'museo', sans-serif;
+$base-font-family-serif:														Georgia, "Times New Roman", Times, serif;
+$base-font-family-headings:														"alternate-gothic-no-2-d",sans-serif;
+$base-font-family-condensed:													"proxima-nova-alt-condensed",sans-serif;
+$base-font-family-code:															"Source Sans Pro",Monaco,"Courier New",monospace;
+$base-font-family-amp:															Baskerville,Georgia,Garamond,'Palatino','Book Antiqua';
 
 // - Sizes
+$h1:																			36;
+$h2:																			24;
+$h3:																			16;
+$h4:																			14;
+$h5:																			12;
+$h6:																			10;
 
+$p:																				$base-font-size;
+
+$font-size-code:																14;
+$font-size-small:																12;
+$font-size-large:																24;
+$blockquote-font-size:															$base-font-size;
+$cite-font-size:																$font-size-small;
+
+$brand-font-size:																16;
+$navbar-font-size:																14;
+
+$input-font-size:																16;
+$legend-font-size:																$base-font-size;
 
 // - Weights
-
-
-// - Iconography
+$light:																			300;
+$normal:																		400;
+$semi-bold:																		600;
+$bold:																			700;
+$extra-bold:																	800;
 
 
 // B. COMPONENTS
 
+// B1. Radius
+$radius:																		5px;
+$radius-large:																	$radius*1.5;
+$radius-small:																	$radius/1.5;
+
+// B2. Borders
+$border-color:																	$gray-lighter;
+$border-style:																	solid;
+$border-width:																	1px;
+$border-radius:																	$radius;
+$border-radius-large:															$radius-large;
+$border-radius-small:															$radius-small;
+
+// B3. Z-index master list
+$zindex-navbar:																	1000;
+$zindex-dropdown:																1000;
+$zindex-popover:																1010;
+$zindex-tooltip:																1030;
+$zindex-navbar-fixed:															1030;
+$zindex-modal-background:														1040;
+$zindex-modal:																	1050;
+
+// B4. Transitions
+$transition-speed:																.3s;
+
+// B5. Buttons
+$btn-font-weight:																normal;
+$btn-default-color:																$gray-light;
+$btn-default-background-color:													$white;
+$btn-default-border-color:														$gray-light;
+
+// B6. Badges
+
+
+// B7. Alerts
+
+
+// B8. Labels
+
+
+// C. MODULES
+
+// C1. Breadcrumbs
+
+// C2. Carousel
+
+// C3. Dropdowns
+
+// C4. Forms
+
+// C5. Jumbotron
+
+// C6. Modals
+
+// C7. Navbar
+
+// C8. Navs
+
+// C9. Pagination
+
+// C10. Panels
+
+// C11. Popovers
+
+// C13. Tables
+
+// C14. Thumbnails/Figures
+
+// C15. Tooltip
+
+// C16. Wells

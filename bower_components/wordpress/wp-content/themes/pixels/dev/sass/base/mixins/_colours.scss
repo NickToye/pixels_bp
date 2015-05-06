@@ -1,0 +1,8 @@
+// Mixins :: Colours
+
+@mixin state-color($state-color) {
+	color: lighten($success-color,15%);
+	background: $state-color;
+	border-color: darken(adjust-hue($state-color,-10),5%);
+}
+// @include state-color($success-color);

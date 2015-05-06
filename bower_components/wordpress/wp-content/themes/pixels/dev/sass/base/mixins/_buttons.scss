@@ -1,0 +1,18 @@
+// Mixins :: Buttons
+
+@mixin button($bg:$white,$color:$gray-light,$weight:$normal) {
+	font-weight: $weight;
+	background: $bg;
+	color: $color;
+	border-color: $color;
+}
+
+// @include button($white,$brand-primary,$normal);
+
+
+
+
+$btn-font-weight:																normal;
+$btn-default-color:																$gray-light;
+$btn-default-background-color:													$white;
+$btn-default-border-color:														$gray-light;
