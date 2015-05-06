@@ -1,2 +1,154 @@
-body{background:pink}
+/* Functions */
+/* Gridset */
+/* Fonts */
+/* Variables */
+/*
+
+A. BASICS
+	A1. Page Setup
+		- Page Dimensions
+		- Rhythm
+		- Gutters
+		- Media Queries
+
+	A2. Atmosphere
+		- Black & Whites
+		- Neutral Colours
+		- Branding
+		- Base
+		- States
+		- Headings
+		- Social Media Branding
+		- Hyperlinks
+		- Blockquotes
+		- Radius
+		- Misc
+
+	A3. Typography
+		- Typefaces
+		- Sizes
+		- Weights
+		- Iconography
+
+B. COMPONENTS
+	B1. Base Components
+		- Borders
+	B2. Component Animations
+	B3. Alerts
+	B4. Badges
+	B5. Breadcrumbs
+	B6. Button Groups
+	B7. Buttons
+	B8. Carousel
+	B9. Close
+	B10. Code
+	B11. Dropdowns
+	B12. Forms
+	B13. Jumbotron
+	B14. Labels
+	B15. List Group
+	B16. Media
+	B17. Modals
+	B18. Navbar
+	B19. Navs
+	B20. Pagination
+	B21. Panels
+	B22. Popovers
+	B23. Progress Bars
+	B24. Tables
+	B25. Thumbnails/Figures
+	B26. Tooltip
+	B27. Wells
+*/
+/* Mixins */
+/* Components */
+/* line 4, ../../dev/sass/base/components/_buttons.scss */
+.scaffold .button {
+  margin-bottom: 10px;
+}
+
+/* line 8, ../../dev/sass/base/components/_buttons.scss */
+.button {
+  background: #555555;
+  color: white;
+  border-color: #2f2f2f;
+  padding: 10px;
+  border-width: 1px;
+  cursor: pointer;
+  min-width: 6.5%;
+  font-size: 16px;
+  font-size: rem(16);
+}
+/* line 7, ../../dev/sass/base/mixins/_buttons.scss */
+.button:hover {
+  background: #2f2f2f;
+}
+/* line 16, ../../dev/sass/base/components/_buttons.scss */
+.button--primary {
+  background: #ca6253;
+  color: white;
+  border-color: #9f3f31;
+}
+/* line 7, ../../dev/sass/base/mixins/_buttons.scss */
+.button--primary:hover {
+  background: #9f3f31;
+}
+/* line 17, ../../dev/sass/base/components/_buttons.scss */
+.button--secondary {
+  background: #5a7c7f;
+  color: white;
+  border-color: #3a5052;
+}
+/* line 7, ../../dev/sass/base/mixins/_buttons.scss */
+.button--secondary:hover {
+  background: #3a5052;
+}
+/* line 18, ../../dev/sass/base/components/_buttons.scss */
+.button--success {
+  background: #5cb85c;
+  color: white;
+  border-color: #3d8b3d;
+}
+/* line 7, ../../dev/sass/base/mixins/_buttons.scss */
+.button--success:hover {
+  background: #3d8b3d;
+}
+/* line 19, ../../dev/sass/base/components/_buttons.scss */
+.button--info {
+  background: #5bc0de;
+  color: white;
+  border-color: #28a1c5;
+}
+/* line 7, ../../dev/sass/base/mixins/_buttons.scss */
+.button--info:hover {
+  background: #28a1c5;
+}
+/* line 20, ../../dev/sass/base/components/_buttons.scss */
+.button--warning {
+  background: #f0adb2;
+  color: white;
+  border-color: #e46c75;
+}
+/* line 7, ../../dev/sass/base/mixins/_buttons.scss */
+.button--warning:hover {
+  background: #e46c75;
+}
+/* line 21, ../../dev/sass/base/components/_buttons.scss */
+.button--danger {
+  background: #d9534f;
+  color: white;
+  border-color: #b52b27;
+}
+/* line 7, ../../dev/sass/base/mixins/_buttons.scss */
+.button--danger:hover {
+  background: #b52b27;
+}
+/* line 23, ../../dev/sass/base/components/_buttons.scss */
+.button--rounded {
+  border-radius: 5px;
+}
+
+/* Page */
+/* Scratch */
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,13 +1,13 @@
 // Mixins :: Buttons
 
-@mixin button($bg:$white,$color:$gray-light,$weight:$normal) {
-	font-weight: $weight;
+@mixin button($bg:$gray,$color:$white) {
 	background: $bg;
 	color: $color;
-	border-color: $color;
+	border-color: darken($bg,15%);
+	&:hover { background: darken($bg,15%); }
 }
 
-// @include button($white,$brand-primary,$normal);
+// @include button($white,$brand-primary);
 
 
 

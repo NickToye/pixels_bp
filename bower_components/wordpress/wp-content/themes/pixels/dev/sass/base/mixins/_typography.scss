@@ -1,0 +1,12 @@
+// Mixins :: Typography
+
+@mixin font-size($font-size, $line-height: false, $margin-bottom: false) {
+	font-size: ($font-size)*1px;
+	font-size: rem($font-size);
+	@if $line-height == true {
+		line-height: ceil($font-size / $rhythm-unit) * ($rhythm-unit / $font-size);
+	}
+	@if $margin-bottom == true {
+		margin-bottom: rem($rhythm-unit);
+	}
+}

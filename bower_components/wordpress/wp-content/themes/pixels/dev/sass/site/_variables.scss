@@ -126,6 +126,7 @@ $alt-2:																			complement($brand-secondary);
 // - Base
 $background-color:																$white;
 $text-color:																	$black;
+$border-color:																	$gray-lighter;
 
 // - States
 $success-color:																	rgb(92,184,92);
@@ -174,6 +175,7 @@ $blockquote-cite-color:															$brand-primary;
 $text-muted:																	$gray-light;
 $abbr-border-color:																$border-color;
 $hr-border:																		$border-color;
+
 
 // - Code
 $code-text-color:																$brand-secondary;
@@ -239,7 +241,6 @@ $radius-large:																	$radius*1.5;
 $radius-small:																	$radius/1.5;
 
 // B2. Borders
-$border-color:																	$gray-lighter;
 $border-style:																	solid;
 $border-width:																	1px;
 $border-radius:																	$radius;

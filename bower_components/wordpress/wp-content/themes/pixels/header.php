@@ -46,6 +46,7 @@
 
 <body <?php body_class(); ?>>
 
+
 	<header>
 		<div class="wrapper">
 			<nav class="navbar navbar--default" role="navigation">
@@ -53,6 +54,7 @@
 				<div class="container-fluid">
 
 					<!-- Brand and toggle get grouped for better mobile display -->
+<!--
 					<div class="navbar__header">
 						<button type="button" class="navbar__toggle" data-toggle="collapse" data-target="#navbar">
 							<span class="sr-only">Toggle navigation</span>
@@ -63,7 +65,9 @@
 						<a class="brand" href="/"><img src="<?php bloginfo('template_url');?>/-/img/logo.jpg" alt="logo" width="500" height="500" /></a>
 
 					</div>
+-->
 					<!-- Collect the nav links, forms, and other content for toggling -->
+<!--
 					<div class="pull-right collapse navbar__collapse" id="navbar">
 						<ul class="pull-right list-inline list-unstyled socials">
 							<li><a href="https://www.facebook.com/sfpuk"><i class="fa fa-facebook"></i></a></li>
@@ -73,7 +77,8 @@
 						<?php wp_nav_menu( array('theme_location' => 'primary', 'menu' => '', 'menu_class' => 'nav navbar__nav navbar__right', 'container' => '', 'walker' => new My_Walker_Nav_Menu(), )); ?>
 
 
-					</div><!-- /.navbar-collapse -->
+					</div>
+--><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
 		</div>

@@ -1,0 +1,24 @@
+// Components :: Buttons
+
+// Scaffold
+.scaffold .button {
+	margin-bottom: 10px;
+}
+
+.button {
+	// Default
+	@include button();
+	padding: 10px;
+	border-width: 1px;
+	cursor: pointer;
+	min-width: gs-width(d,1,1,false,true);
+	@include font-size($base-font-size,$line-height:false,$margin-bottom:false);
+	&--primary { @include button($brand-primary); }
+	&--secondary { @include button($brand-secondary); }
+	&--success { @include button($success-color); }
+	&--info { @include button($info-color); }
+	&--warning { @include button($warning-color); }
+	&--danger { @include button($danger-color); }
+
+	&--rounded { border-radius: $radius; }
+}
