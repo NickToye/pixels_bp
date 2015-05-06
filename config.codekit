@@ -4084,15 +4084,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/-\/css\/styles.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/-\/css\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/-\/img\/logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4362,6 +4353,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/base\/_components.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -4556,16 +4556,16 @@
 		},
 	"\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/styles.scss": {
 		"createSourceMap": 1,
-		"debugStyle": 1,
+		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/sass\/styles.scss",
-		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/-\/css\/styles.css",
+		"outputAbbreviatedPath": "\/bower_components\/wordpress\/wp-content\/themes\/pixels\/dev\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
